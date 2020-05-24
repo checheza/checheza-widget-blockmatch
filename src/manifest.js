@@ -5,7 +5,7 @@ const Manifest = {
     "version": "0.1",
     "type": "widget",
     "category": "math",
-    "icon": null
+    "icon": "math.blockmatch.jpg"
 };
 
 export default Manifest;

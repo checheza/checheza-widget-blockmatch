@@ -26,9 +26,10 @@ class MainDomain {
 
     // method called after render, add logics, event listeners etc. here
     start() {
-        this.blockmatch = new BlockmatchClass(levels, 0);
         Core.utils.adjustAspectRatio();
+        Core.utils.addExitButton();
 
+        this.blockmatch = new BlockmatchClass(levels, 0);
         setTimeout(() => {
             this.blockmatch.init();
         }, 1000);
